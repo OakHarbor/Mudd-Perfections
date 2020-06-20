@@ -60,7 +60,7 @@ html {
     position: absolute;
     width: 180px;
     height: 150px;
-    border: 10px solid rgba(255,186,25, .4);
+    border: 10px solid rgba(76,132,164, .4);
     z-index: -1;
 }
 
@@ -264,6 +264,9 @@ html.clicked {
         background-attachment: fixed;
         position: relative;
         background-position: center;
+        background: url("/images/tools2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #home-h {

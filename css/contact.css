@@ -63,7 +63,7 @@ body.dark-mode {
     position: absolute;
     width: 180px;
     height: 200px;
-    border: 10px solid rgba(255,186,25, .4);
+    border: 10px solid rgba(76,132,164, .4);
     z-index: -1;
 }
 

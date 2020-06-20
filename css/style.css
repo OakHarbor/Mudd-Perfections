@@ -302,7 +302,7 @@
 <--- -------------------------- -*/
 
 .content {
-    background: url("../images/house-mobile.jpg");
+    background: url("../images/yellow-house-mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
@@ -353,7 +353,7 @@
 .why-item span {
     font-size: .4em;
     font-weight: normal;
-    color: rgba(255, 255, 255, .7);
+    color: rgb(130, 188, 255);
 }
 
 .why-item p,
@@ -382,10 +382,10 @@
     left: 0;
     bottom: -10px;
     position: absolute;
-    background: rgb(41,162,228);
-    background: -o-radial-gradient(circle, rgba(41,162,228,1) 0%, rgba(45,180,253,1) 0%, rgba(23,90,127,1) 84%);
-    background: radial-gradient(circle, rgba(41,162,228,1) 0%, rgba(45,180,253,1) 0%, rgba(23,90,127,1) 84%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29a2e4",endColorstr="#175a7f",GradientType=1);
+    background: rgb(51,51,51);
+    background: -o-linear-gradient(34deg, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(56deg, rgba(51,51,51,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333333",endColorstr="#000000",GradientType=1);
     opacity: .89;
 }
 
@@ -438,19 +438,19 @@
 }
 
 .card:nth-child(1) {
-    background: url("../images/kitchen-mobile.jpg");
+    background: url("../images/interior\ drywall.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(2) {
-    background: url("../images/stairs-mobile.jpg");
+    background: url("../images/painting.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(3) {
-    background: url("../images/deck-mobile.jpg");
+    background: url("../images/acoustical\ paintng.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -692,7 +692,7 @@
 <--- -------------------------- -*/
 
 #reviews {
-    background: url("/images/home2-mobile.jpg");
+    background: url("/images/tools.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -829,7 +829,7 @@
 }
 
 .gallery-topper {
-    background: url("/images/image-11.jpg");
+    background: #000;
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px auto 0 auto;
@@ -1909,6 +1909,10 @@
         width: 320px;
     }
 
+    .left h2 {
+        width: 300px;
+    }
+
     .right {
         width: 680px;
         display: -webkit-box;
@@ -1981,67 +1985,11 @@
     <--- -------------------------- -*/
 
     #reviews {
-        background: url("/images/home2.jpg");
         background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
-    .review-group {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-                flex-direction: row;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        margin: auto;
-        width: 900px;
-        padding-bottom: 100px;
-    }
-
-    .review-h3 {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        width: 100%;
-        margin-top: 100px;
     }
 
     .review-h3:before {
-        height: 180px;
-    }
-
-    .review-p {
-        width: 350px;
-        margin: auto;
-        margin-bottom: 100px;
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
-    .review {
-        width: 450px;
-    }
-
-    .review p {
-        text-align: center;
-    }
-
-    .stars {
-       display: -webkit-box;
-       display: -ms-flexbox;
-       display: flex;
-       -webkit-box-pack: center;
-           -ms-flex-pack: center;
-               justify-content: center;
-       margin-bottom: 20px;
+        height: 150px;
     }
 
     /*-- -------------------------- -->
@@ -2077,6 +2025,7 @@
 
     .gallery-group img {
         width: 20%;
+        height: auto;
         margin: 0;
         padding: 0;
     }
@@ -2088,6 +2037,7 @@
     #meet-the-team {
         padding-top: 100px;
         padding-bottom: 100px;
+        height: 680px !important;
     }
 
     .team-container {
