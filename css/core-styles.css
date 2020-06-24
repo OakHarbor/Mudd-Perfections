@@ -989,6 +989,15 @@ footer a svg {
     width: 200px;
 }
 
+.social {
+    width: 30px !important;
+    padding: 0;
+}
+
+.social:hover {
+    opacity: .8;
+}
+
 .branding {
 	background: #041219;
 	padding-top: 40px;

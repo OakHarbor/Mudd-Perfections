@@ -438,19 +438,19 @@
 }
 
 .card:nth-child(1) {
-    background: url("../images/interior\ drywall.png");
+    background: url("../images/image-5-crop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(2) {
-    background: url("../images/painting.png");
+    background: url("../images/interior-painting.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .card:nth-child(3) {
-    background: url("../images/acoustical\ paintng.png");
+    background: url("../images/Acoustical-Ceiling.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1603,7 +1603,7 @@
         font-weight: bold;
         overflow-y: hidden;
         margin: 0;
-        width: 600px;
+        width: 800px;
     }
 
     .heroText h2 {
@@ -1612,7 +1612,7 @@
         text-align: left;
         line-height: 1.6em;
         padding: 30px 0;
-        width: 550px;
+        width: 750px;
         position: relative;
         font-weight: normal;
     }
