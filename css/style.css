@@ -1889,6 +1889,24 @@
         width: 229px;
     }
 
+    .card:nth-child(1) {
+    background: url("../images/image-5-crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .card:nth-child(2) {
+        background: url("../images/interior-painting.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .card:nth-child(3) {
+        background: url("../images/Acoustical-Ceiling.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     /*-- -------------------------- -->
     <---            OFFER           -->
     <--- -------------------------- -*/
