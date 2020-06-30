@@ -639,55 +639,6 @@
 }
 
 /*-- -------------------------- -->
-<---         CORINTHIANS        -->
-<--- -------------------------- -*/
-
-#corinthians-passage {
-    background: url("/images/image-15-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
-}
-
-#corinthians-passage:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    opacity: .7;
-    top: 0;
-    left: 0;
-}
-
-.corinthians {
-    font-size: 1.125em
-
-    ;
-    margin-bottom: 0;
-    position: relative;
-    z-index: 10;
-    color: #fff;
-}
-
-.corinthians span {
-    font-weight: bold;
-    font-size: 2.1875em;
-    color: var(--primary);
-}
-
-.corinthians span:nth-child(2) {
-    font-size: 1.3125em;
-}
-
-.c-2 {
-    font-weight: bold;
-    color: #4c4c4c;
-}
-
-/*-- -------------------------- -->
 <---           REVIEWS          -->
 <--- -------------------------- -*/
 
@@ -973,6 +924,7 @@
 
 .team-card img {
     width: 100%;
+    height: auto;
 }
 
 .team-group {
@@ -2055,7 +2007,7 @@
     #meet-the-team {
         padding-top: 100px;
         padding-bottom: 100px;
-        height: 680px !important;
+        height: 780px !important;
     }
 
     .team-container {
