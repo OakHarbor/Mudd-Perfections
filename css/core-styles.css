@@ -774,6 +774,7 @@ li.social {
     #on-top .social {
         height: 30px;
         margin-top: 0;
+        display: block;
     }
 
 	.active-menu {
