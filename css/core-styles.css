@@ -629,6 +629,7 @@ li.social {
 	.quote-nav-button {
         display: block;
         margin-left: 30px;
+        border: 1px solid transparent;
 	}
 
 	.container {
