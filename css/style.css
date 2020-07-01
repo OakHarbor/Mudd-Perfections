@@ -64,6 +64,18 @@
     font-weight: normal;
 }
 
+@media screen and (min-width: 310px) and (max-width: 374px) {
+
+    #home-h {
+        font-size: 1.3em;
+    }
+
+    .heroText h2 {
+        font-size: .9em;
+    }
+
+}
+
 .heroText h2:before {
     content: '';
     position: absolute;

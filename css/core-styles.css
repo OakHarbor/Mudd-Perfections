@@ -365,6 +365,17 @@ button:hover {
 	margin-bottom: 20px;
 }
 
+li.social {
+    display: none;
+    float: left;
+}
+
+#on-top .social {
+    width: 30px !important;
+    height: 30px;
+    display: none;
+}
+
 .side-nav a {
 	text-decoration: none;
 	padding: 5px 10px 5px 10px;
@@ -616,7 +627,8 @@ button:hover {
 	}
 
 	.quote-nav-button {
-		display: block;
+        display: block;
+        margin-left: 30px;
 	}
 
 	.container {
@@ -751,7 +763,18 @@ button:hover {
 
 	#on-top li  {
 		float: right;
-	}
+    }
+
+    .social-li {
+        height: 30px !important;
+        margin-top: 0 !important;
+        margin-right: 15px !important;
+    }
+    
+    #on-top .social {
+        height: 30px;
+        margin-top: 0;
+    }
 
 	.active-menu {
 		border-right: none;
