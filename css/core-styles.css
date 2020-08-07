@@ -331,7 +331,7 @@ button:hover {
 	width: 0;
 	position: absolute;
 	right: 0;
-	height: 100%;
+	min-height: 100vh;
 	-webkit-transition: .3s ease-in-out;
 	-o-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -387,6 +387,17 @@ li.social {
 	        transition-delay: .2s;
 	opacity: 0;
 	visibility: hidden;
+}
+
+.social-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.social-box a {
+    margin-left: 20px;
+    display: block;
 }
 
 .active-menu {
@@ -1016,6 +1027,7 @@ footer a svg {
 
 .social {
     width: 30px !important;
+    height: auto;
     padding: 0;
 }
 
