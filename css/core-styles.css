@@ -789,6 +789,10 @@ li.social {
         display: block;
     }
 
+    .social-box {
+        display: none;
+    }
+
 	.active-menu {
 		border-right: none;
 		border-bottom: 4px solid var(--primary);
