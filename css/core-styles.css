@@ -1057,6 +1057,23 @@ footer a svg {
 	cursor: pointer;
 }
 
+.credit-cards {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.credit-cards p {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.credit-cards img {
+    display: inline-block;
+    width: 40px;
+    margin: 0 10px;
+}
+
 
 /* Tablets */
 @media screen and (min-width: 500px) and (max-width: 1024px) {
@@ -1111,5 +1128,9 @@ footer a svg {
 
 	.branding {
 		margin-top: 50px;
-	}
+    }
+    
+    .credit-cards p {
+        font-size: 15px;
+    }
 }
